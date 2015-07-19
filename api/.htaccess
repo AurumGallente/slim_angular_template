@@ -1,0 +1,8 @@
+Options +FollowSymLinks -MultiViews
+
+RewriteEngine On
+RewriteBase /api/
+
+RewriteRule ^index\.php$ - [L]
+RewriteRule . index.php [L]
+RewriteRule ^$ index.php [L]

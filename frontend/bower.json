@@ -1,0 +1,23 @@
+{
+  "name": "crm_v3",
+  "version": "0.0.1",
+  "authors": [
+    "aurum <aurum.gallente@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.13",
+    "angular-resource": "~1.3.15"
+  }
+}
